@@ -1,0 +1,4 @@
+#将列设置为索引
+set.index()
+#在pandas中
+X = X.set_index('column1')
