@@ -1,0 +1,16 @@
+1.遍历目录下文件夹文件，生成表
+os.walk( top , topdown = True , onerror = None , followlinks = False ) 
+通过自上而下或自下而上遍历树，在目录树中生成文件名。对于以目录top为根的树中的每个目录 （包括top本身），它会产生一个 3-tuple 。(dirpath, dirnames, filenames)
+
+2.Pandas合并表
+new_df = pd.contact([df_1, df_2])
+
+3.Generate id for all data
+id = list(range(0,len(df.index)))
+
+4.Transfer df to csv file
+df.to_csv(df_csv) #这里的df_csv要先定义
+
+5.split data前要对数据进行
+X = df.drop(['pred_col'], axis=1)
+Y = df.iloc[:,1]
